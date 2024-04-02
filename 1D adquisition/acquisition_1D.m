@@ -1,4 +1,4 @@
-%% 1D acquisition of optoacoustic signals in a 2D grid  %%
+%% 1D acquisition of optoacoustic signals%%
 % this code computes an array of sources (N) in random positions (y) between
 % interval(1) and interval(2).
 % the length of the time-resolved signals is l and the spheres are assumed
@@ -10,7 +10,7 @@ clear all;
 close all;
 tic
 N=1e6; %number of sources
-vs=1520;  %m/s
+vs=1500;  %m/s
 p0=1; %u.au
 Rs=10e-6; %m diameter of sphere
 
